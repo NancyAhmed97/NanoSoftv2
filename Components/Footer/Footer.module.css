@@ -1,0 +1,10 @@
+.footerContainer{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width:100%;
+    background:hsl(312deg 40% 51%);
+    padding:16px;
+    font-size:1.13rem;
+    line-height:1.5rem;
+}

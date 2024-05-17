@@ -1,0 +1,111 @@
+.navItem{
+    padding-left: 1.5rem !important;
+}
+.navItem li{
+    margin-top: 8px;
+    color: rgb(75, 85, 149) !important;
+
+}
+.navItem li a {
+  font-weight: 600;
+  color: rgb(75, 85, 149) !important;
+  text-decoration: none !important;
+  font-size: 1.1rem;
+} 
+.quickLinks{
+    font-size:1.5rem;
+    margin-bottom:20px;
+}
+.whatsapp {
+  border-radius: 50%;
+  box-shadow:
+  0 4px 6px -1px rgb(61 157 182 / 0.1), 0 2px 4px -2px rgb(61 157 182 / 0.1)
+  ;
+  margin: 0 8px;
+  width: 48px !important;
+  height: 48px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.whatsapp:hover {
+  background-color: hsl(312deg 40% 51%);
+}
+.whatsapp:hover .whatsAppIcon {
+  fill: #fff !important;
+}
+.whatsapp svg {
+  width: 24px;
+  height: 24px;
+  fill: #4b5563;
+}
+.socialMedia{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+}
+.enAboutParag{
+    padding:15px 45px;
+    font-size:1.1rem;
+    color: rgb(134,141,150);
+}
+.arAboutParag{
+    padding:15px 28px;
+    font-size:1.1rem;
+    color: rgb(134,141,150);
+}
+
+.contactus{
+    padding:6rem 0;
+}
+.ContactInfo{
+  padding: 6rem 60px;
+background-color: rgba(180,80,160,0.05);
+}
+.CardContainer{
+  background-color: #fff;
+  padding:32px 40px;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.locationIcon{
+  background-color: rgba(180,80,160,0.05);
+border-radius: 1rem;
+display: flex;
+padding:16px;
+margin-bottom: 24px;
+width:64px;
+height:64px;
+
+}
+.locationName{
+  font-weight:700;
+  font-size:1.25rem;
+  color:#000;
+}
+.mapContainer{
+  background-color: rgba(180,80,160,0.05);
+  padding: 0 60px;
+  padding-bottom: 6rem;
+  border-bottom: 4px solid rgba(180, 80, 160, 0.1);
+}
+.mapContainer iframe{
+  width:100%;
+}
+@media (max-width: 768px) {
+    .quickLinks , .socialMedia{
+        padding: 0px 45px;    
+    }
+    .navItem{
+        padding: 0px 65px !important;    
+
+    }
+    .ContactInfo{
+      padding: 1rem 10px;
+    }
+    .mapContainer{
+      padding: 0 10px;
+    }
+}

@@ -1,0 +1,28 @@
+.lang {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  font-weight: 600;
+  margin-left: 24px;
+  margin-right: 24px;
+  padding: 8px 35px 8px 35px;
+  font-size: 1.3rem;
+}
+.lang a {
+  color: rgb(75, 85, 149) !important;
+  text-decoration: none !important;
+}
+.lang a:hover {
+  color: hsl(312deg 40% 51%) !important;
+}
+
+
+.active{
+    color: hsl(312deg 40% 51%) !important;
+    text-decoration: underline !important;
+}
+.navItem .active a{
+    color: hsl(312deg 40% 51%) !important;
+    text-decoration: underline !important;
+} 
+
+
