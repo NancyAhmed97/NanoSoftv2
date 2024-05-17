@@ -2,7 +2,6 @@ import { useTranslations } from "next-intl";
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import Styles from "./Services.module.css";
-import Link from "next/link";
 export default function index({ state }) {
   const t = useTranslations("general");
   return (
@@ -14,7 +13,7 @@ export default function index({ state }) {
         <Container fluid>
           <Row>
             <Col md={4} style={{marginBottom:"25px"}}>
-            <Link href={`/service`}>
+           
               <div className={Styles.card}>
                 <div className={Styles.cardHeader}> 
                 <img src="./webImg.png" alt="webImg" />
@@ -25,10 +24,10 @@ export default function index({ state }) {
                   {state && <p>{t("webDesc")}</p>}
                 </div>
               </div>
-              </Link>
+             
             </Col>
             <Col md={4} style={{marginBottom:"25px"}}>
-            <Link href={`/service`}>
+           
               <div className={Styles.card}>
                 <div className={Styles.cardHeader}>
                 <img src="./appImg.png" alt="appImg" />
@@ -39,10 +38,10 @@ export default function index({ state }) {
                   {state && <p>{t("appDesc")}</p>}
                 </div>
               </div>
-              </Link>
+             
             </Col>
             <Col md={4} style={{marginBottom:"25px"}}>
-            <Link href={`/service`}>
+           
               <div className={Styles.card}>
                 <div className={Styles.cardHeader}>
                   {" "}
@@ -53,7 +52,7 @@ export default function index({ state }) {
                   {state && <p>{t("userDesc")}</p>}
                 </div>
               </div>
-              </Link>
+             
             </Col>
           </Row>
         </Container>
