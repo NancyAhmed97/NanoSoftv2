@@ -119,6 +119,15 @@ function Index({ state }) {
                     />
                 
                 </div>
+                <div className={Styles.card}>
+
+                <img
+                        src="/logo1.png"
+                        alt="logo"
+                        style={{ width: "180px"}}
+                    />
+                
+                </div>
             </Carousel>
         </div>
     )
