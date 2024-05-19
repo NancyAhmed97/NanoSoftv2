@@ -5,6 +5,7 @@ import Service from "../Components/Services/index";
 import HomePage from "../Components/Home/index";
 import Aboutus from "../Components/Aboutus/Aboutus";
 import Courses from "../Components/Courses/Index";
+import Partners from "../Components/Partners/Index";
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -17,6 +18,7 @@ export default function Home() {
       <Aboutus />
       <Service />
       <Courses/>
+      <Partners/>
     </div>
   );
 }
